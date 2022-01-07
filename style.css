@@ -1,0 +1,170 @@
+body{
+    margin:5px;
+    padding: 5px;
+}
+
+.main-container{
+    margin:10px;
+    padding: 5px;
+}
+
+.introduction .left-introduction{
+    line-height:0.3;
+    width: 500px;
+    display: inline;
+    font-size: 40px;
+    margin-left: 200px;
+}
+
+h2 .yellow-text{
+    color:rgb(250, 197, 51)
+}
+
+.left-introduction .about-me{
+    font-size: 17px;
+    line-height:1.4; 
+}
+
+.right-image img{
+    height: 500px;
+    display: inline;
+    float: right;
+    margin-left: 500px;
+    margin-top:-80px;
+    display: inline;
+}
+.introduction{
+   display: flex;
+}
+
+/* .left-introduction .into-header{
+    margin-left:20px
+} */
+
+.left-introduction button{
+    background-color: rgb(255, 79, 9);
+    border: none;
+    height: 40px;
+    width:130px;
+    color:white;
+    border-radius: 5px;
+    
+}
+
+.mission-info h1{
+  margin:0 auto;
+  text-align: center; 
+  margin-top: 50px ;
+  font-size: 70px;
+}
+
+h1 .year-text{
+   color: rgb(255, 197, 49); 
+}
+
+.mission-card{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
+    overflow:hidden;
+    border-radius: 14px;
+}
+.mission-card .card-one{
+    height: 335px;
+    width: 335px;
+    background-color:#edf2fb;
+    margin: 20px;
+    padding: 30px;
+    border-radius: 14px;
+
+}
+
+.mission-card .card-two{
+    height: 335px;
+    width: 335px;
+    background-color: #eee2df;
+    margin: 20px;
+    padding: 30px;
+    border-radius: 14px;
+}
+
+.mission-card .card-three{
+    height: 335px;
+    width: 335px;
+    background-color: #ffefd3;
+    margin: 20px;
+    padding: 30px;
+    border-radius: 14px;
+}
+
+.mission-card img{
+    height: 170px;
+    width: 170px;
+    
+}
+
+.document{
+    display: flex;
+    
+}
+
+.document img{
+    height: 600px;
+    width: 600px;
+    margin: 100px 0 0 200px;
+}
+
+.document .document-left{
+    height: 335px;
+    width: 700px;
+    margin: 160px 0 0 100px;
+    font-size: 20px;
+    line-height: 1;
+}
+
+.document-left h1{
+    line-height: .4;
+}
+.document-left button{
+    background-color: rgb(255, 79, 9);
+    border: none;
+    height: 40px;
+    width:250px;
+    color:rgb(212, 218, 224);
+    border-radius: 5px;
+}
+
+.portfolio{
+    display: flex;
+    line-height:1;
+}
+
+.portfolio img{
+    height: 600px;
+    width: 600px;
+    margin-left: 100px;
+}
+
+.portfolio-one p{
+    color:  #023e8a;
+    width: 600px;
+    font-size: 50px;
+    margin:200px 0 0 200px;
+    text-shadow:black;
+    
+}
+
+.footer{
+    width: 100%;
+    height:150px;
+    background-color: #3d405b;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    line-height: .4;
+}
+
+.footer .footer-txt{
+    color: tomato;
+}
